@@ -67,8 +67,8 @@ pub mod proptest_support;
 /// Holds uuid along it's short representation as `Vec<u8>`.
 #[derive(Debug, Eq, PartialEq, Clone)]
 pub struct ShortUuid {
-    short: Vec<u8>,
-    uuid: Uuid,
+    pub short: Vec<u8>,
+    pub uuid: Uuid,
 }
 
 /// Extension trait that allows expansion of uuid-like data
