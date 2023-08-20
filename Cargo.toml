@@ -14,7 +14,7 @@ all-features = true
 [dependencies]
 lazy_static = "1.2"
 proptest = { version = "0.8", optional = true }
-uuid = { version = "0.7", default_features = false }
+uuid = { version = "1.4.1", default_features = false }
 
 [dev-dependencies]
 version-sync = "0.7"
